@@ -5,7 +5,7 @@ public class Registration {
     private static HashMap<String, String> usersDatabase = new HashMap<>();
 
     public void register(Scanner scanner) {
-        System.out.print("Enter username: ");
+        System.out.print("Enter username: ");//getting name from user
         String username = scanner.nextLine();
 
         if (usersDatabase.containsKey(username)) {
