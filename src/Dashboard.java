@@ -5,6 +5,7 @@ public class Dashboard {
         this.user = user;
     }
 
+    // Running program
     public void showDashboard() {
         System.out.println("Welcome to the Dashboard, " + user.getUsername() + "!");
     }
